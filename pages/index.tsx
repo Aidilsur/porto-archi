@@ -1,17 +1,23 @@
 import type { NextPage } from 'next';
+import Head from 'next/head';
+import { About, Hero } from '../components';
 import Layout from '../layout';
-import { Hero } from '../section';
 
 const Home: NextPage = () => {
   return (
-    <Layout title="Gani M Pakuan">
-      <main className="w-full h-full">
-        {/* Hero Section */}
-        <section id="hero">
-          <Hero />
-        </section>
-      </main>
-    </Layout>
+    <>
+      <Layout title="Gani M Pakuan">
+        <>
+          <section id="hero">
+            <Hero />
+          </section>
+
+          <section id="about">
+            <About />
+          </section>
+        </>
+      </Layout>
+    </>
   );
 };
 

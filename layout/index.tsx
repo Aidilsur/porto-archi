@@ -16,7 +16,7 @@ function Layout({ children, title }: Props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      {children}
+      <main className="xl:max-w-7xl mx-auto p-3">{children}</main>
       {/* <Footer /> */}
     </>
   );
