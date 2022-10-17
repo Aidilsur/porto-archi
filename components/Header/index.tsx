@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import NavLink from 'next/link';
 import React from 'react';
 import { useIsDesktop } from '../../utils';
 import { FaHome, FaFolderOpen, FaRegCommentDots } from 'react-icons/fa';
@@ -40,9 +40,9 @@ function Header({}: Props) {
       <nav className="flex items-center justify-between text-s md:text-lg font-semibold">
         {menus.map((menu, index) => {
           return (
-            <Link key={index} href={menu.path}>
+            <NavLink key={index} href={menu.path}>
               <p className="cursor-pointer text-2xl xl:text-lg">{menu.title}</p>
-            </Link>
+            </NavLink>
           );
         })}
       </nav>
