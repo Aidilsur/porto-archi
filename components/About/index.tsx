@@ -18,7 +18,7 @@ function About({}: Props) {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1.2 }}
             viewport={{ once: true }}
-            className="xl:w-[50%] w-[30%] xl:pr-10 rounded rounded-lg"
+            className="xl:w-[50%]  w-[100%] h-[100%] xl:pr-10 rounded rounded-lg"
             src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80"
           />
           <div className="space-y-10 px-0 mt-4">

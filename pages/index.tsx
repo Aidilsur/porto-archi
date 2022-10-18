@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { About, Hero } from '../components';
+import { About, Hero, LatestProject } from '../components';
 import Layout from '../layout';
 
 const Home: NextPage = () => {
@@ -15,6 +15,10 @@ const Home: NextPage = () => {
           <section id="about">
             <About />
           </section>
+
+          {/* <section id="latesProject">
+            <LatestProject />
+          </section> */}
         </>
       </Layout>
     </>
